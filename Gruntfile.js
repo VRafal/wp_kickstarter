@@ -55,19 +55,19 @@ module.exports = function(grunt) {
 				backups_dir: "backups_db"
 			},
 			local: {
-				"title": "Baza lokalna",
-				"database": "marcinkowskiego8",
+				"title": "Local DB",
+				"database": "db_name",
 				"user": "root",
 				"pass": "",
 				"host": "127.0.0.1",
 				"url": ""
 			},
 			test: {
-				"title": "Baza testowa dla test.marcinkowskiego8.pl",
-				"database": "01377244_mar8",
-				"user": "01377244_mar8",
-				"pass": "dl1b@e+9IJw;",
-				"host": "verity.home.pl",
+				"title": "Test DB",
+				"database": "db_name",
+				"user": "",
+				"pass": "",
+				"host": "",
 				"url": ""
 			}
 		}
