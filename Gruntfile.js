@@ -32,7 +32,7 @@ module.exports = function(grunt) {
 		'ftp-deploy': {
 			build: {
 				auth: {
-					host: 'verity.home.pl',
+					host: 'host',
 					port: 21,
 					authKey: 'key2'
 				},
