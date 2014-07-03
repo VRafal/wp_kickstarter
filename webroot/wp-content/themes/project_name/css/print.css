@@ -1,0 +1,25 @@
+@media print {
+	* { box-shadow: none; }
+
+	/*wy³¹czenie wyœwietlania*/
+	header, nav, footer, .adv, .ndop { display: none; }
+
+	/*typografia*/
+	h1, h2, h3, h4, h5, h6, p, p * { font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; color: black; background: none; text-shadow: none; }
+
+	h1, h2, h3 { page-break-after: avoid; }
+
+	p,h1,h2,h3 { orphans: 3; widows: 3; }
+
+	/*linki*/
+	a[href]:after { content: " (" attr(href) ")"; }
+
+	/*js linki*/
+	a[href^="javascript:"]:after,a[href^="#"]:after { content: ""; }
+
+	/*zdjêcia/grafiki*/
+	img { max-width: 100%; }
+
+	/*tabelki*/
+	tr { page-break-inside: avoid; }
+}

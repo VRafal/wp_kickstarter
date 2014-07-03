@@ -1,0 +1,7 @@
+#poststuff .acf_custom_header { border-bottom: #ccc 1px solid; }
+#poststuff .acf_custom_header h2 { margin-bottom: 0; }
+#poststuff .acf_custom_header p { margin-top: 0; margin-bottom: 10px; }
+
+.repeater tr.row td.order,
+.repeater tr.row td.acf_input-wrap,
+.repeater tr.row td.remove { border-bottom: #E1E1E1 3px solid; }
