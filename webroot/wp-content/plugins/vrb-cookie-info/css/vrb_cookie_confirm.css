@@ -1,0 +1,25 @@
+#cokieConfirm { z-index: 10000; border-top: rgba(220,220,220,1) 1px solid; width: 100%; transition: background 0.4s ease-out 0s, bottom 0.5s ease-out 0s; }
+.svg #cokieConfirm { background-image: url(../images/cookies.svg) }
+
+/* Wielkoœci okna */
+.ccIntroText { position: fixed; bottom: -250px; }
+.ccFullText { position: absolute; top: 0; left: 0; }
+
+.ccIntroBack { background: url(../images/cookies.png) rgba(246,246,246,0.9) no-repeat 0 0; background-size: 200px; }
+.ccFullBack { background: url(../images/cookies.png) rgba(246,246,246,0.95) no-repeat 0 0; background-size: 400px; }
+
+.ccMessage { max-width: 900px; margin: 0 auto; padding: 10px 10px 0 10px; font-size: 0.8em; line-height: 1.5em; }
+.ccMessage a { color: #366db2; }
+.ccFullBack .ccMessage { font-size: 1em; }
+
+.ccButton { max-width: 800px; margin: 0 auto; padding: 5px 10px 10px 10px; overflow: hidden; }
+.ccButton p { margin: 0; cursor: pointer; float: right; background: url(../images/close.png) no-repeat 0 0; background-size: 24px; padding: 0 0 0 30px; }
+.svg .ccButton p { background-image: url(../images/close.svg); }
+.ccFullBack .ccButton { margin-bottom: 30px; margin-top: 20px;}
+
+#cokieConfirm.ccShow { bottom: 0; }
+
+
+#ccPopupWrapper { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 10001; overflow: hidden;  }
+#ccPopupBack { position: fixed; top: 0; left: 0; background: #000; width: 100%; height: 100%; opacity: 0.7; z-index: 10002; }
+#ccPopupWrapper .ccPopupContent { position: relative; color: #fff; max-width: 900px; margin: auto 20px; z-index: 10003; overflow: scroll; }

@@ -27,6 +27,7 @@
 !/webroot/wp-content/plugins/vrb-slider
 !/webroot/wp-content/plugins/contact-form-7
 !/webroot/wp-content/plugins/tinymce-advanced
+!/webroot/wp-content/plugins/vrb-cookie-info
  
 # Ignore everything in the "themes" directory, except the themes you
 # specify (see the commented-out example for a hint on how to do this.)
